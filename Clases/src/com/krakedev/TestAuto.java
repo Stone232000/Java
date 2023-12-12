@@ -6,16 +6,16 @@ public class TestAuto {
 		// TODO Auto-generated method stub
 		Auto auto = new Auto();
 		Auto auto2 = new Auto();
-		auto.marca = "Audi";
-		auto.anio = 2000;
-		auto.precio = 115000;
-		auto2.marca = "Ferrari";
-		auto2.anio = 1978;
-		auto2.precio = 250000;
-		System.out.print("Marca: " + auto.marca + "\nAnio: " + auto.anio + "\nPrecio: " + auto.precio);
+		auto.setMarca("Audi");
+		auto.setAnio(2000);
+		auto.setPrecio(115000);
+		auto2.setMarca("Ferrari");
+		auto2.setAnio(1978);
+		auto2.setPrecio(250000);
+		System.out.print("Marca: " + auto.getMarca() + "\nAnio: " + auto.getAnio() + "\nPrecio: " + auto.getPrecio());
 
-		System.out.print("\n*********************" + "\nMarca: " + auto2.marca + "\nAnio: " + auto2.anio + "\nPrecio: "
-				+ auto2.precio);
+		System.out.print("\n*********************" + "\nMarca: " + auto2.getMarca() + "\nAnio: " + auto2.getAnio()
+				+ "\nPrecio: " + auto2.getPrecio());
 	}
 
 }

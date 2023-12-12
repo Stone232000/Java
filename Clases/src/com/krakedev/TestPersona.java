@@ -8,6 +8,12 @@ public class TestPersona {
 		Persona p; // declaro variable persona con el nombre p
 		p = new Persona(); // instancio un ibjeto persona
 		Persona p2 = new Persona();
+		Persona p3 = new Persona("Pablo");
+		Persona p4 = new Persona("Pablo", 18, 1.62);
+
+		System.out.println("nombre " + p4.getNombre());
+		System.out.println("edad " + p4.getEdad());
+		System.out.println("estatura " + p4.getEstatura());
 
 		// accedo a los atributos
 		p.setNombre("juan");

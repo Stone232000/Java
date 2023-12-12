@@ -5,6 +5,8 @@ public class Producto {
 	private String descripcion;
 	private float precio;
 	private int stockActual;
+	
+	
 	public String getNombre() {
 		return nombre;
 	}

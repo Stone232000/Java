@@ -4,8 +4,8 @@ public class TestRectangulo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Rectangulo r1 = new Rectangulo();
-		Rectangulo r2 = new Rectangulo();
+		Rectangulo r1 = new Rectangulo(5,10);
+		Rectangulo r2 = new Rectangulo(2,8);
 		int area1;
 		int area2;
 		double per1;
